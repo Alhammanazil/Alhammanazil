@@ -3,7 +3,7 @@
   <a href="https://github.com/Ratheshan03/readme-typing-svg"><img src="https://readme-typing-svg.herokuapp.com?lines=infromatics+engineering+student;IT+Enthusiast&center=true&width=500&height=50"></a>
 </p>
 <h3 align="center">I'm just an ordinary student who is currently learning about programming.</h3>
-<img align="right" alt="Coding" width="400" src="https://camo.githubusercontent.com/16f93ae6e1e6ec4e43289b79099f62e62361e750ad5d9754395bb8aa4b9081fc/68747470733a2f2f6d656469612e67697068792e636f6d2f6d656469612f38333648694a633770677a7938694e58436e2f67697068792e676966">
+<img align="right" alt="Coding" width="400" src="https://camo.githubusercontent.com/4d9f5ecceb711eec6e2018f38a5677dc657c9738d4a65ba3b928c41c0a45b439/68747470733a2f2f6d69726f2e6d656469756d2e636f6d2f6d61782f313336302f302a37513379765349765f7430696f4a2d5a2e676966">
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=alhammanazil&label=Profile%20views&color=0e75b6&style=flat" alt="alhammanazil" /> </p>
 
