@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="280" viewBox="0 0 1000 280" role="img" aria-labelledby="t d">
+  <title id="t">Alham Manazil</title>
+  <desc id="d">Web Developer and IT Staff based in Indonesia</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b0e17"/>
+      <stop offset="1" stop-color="#0d1019"/>
+    </linearGradient>
+    <radialGradient id="amber" cx="0.18" cy="0.1" r="0.55">
+      <stop offset="0" stop-color="#fbbf24" stop-opacity="0.22"/>
+      <stop offset="1" stop-color="#fbbf24" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="indigo" cx="0.88" cy="0.95" r="0.55">
+      <stop offset="0" stop-color="#818cf8" stop-opacity="0.24"/>
+      <stop offset="1" stop-color="#818cf8" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="name" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff"/>
+      <stop offset="1" stop-color="#b4bac6"/>
+    </linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity="0.045"/>
+    </pattern>
+    <radialGradient id="fade" cx="0.3" cy="0.3" r="0.8">
+      <stop offset="0.2" stop-color="#fff"/>
+      <stop offset="1" stop-color="#000"/>
+    </radialGradient>
+    <mask id="gridmask"><rect width="1000" height="280" fill="url(#fade)"/></mask>
+    <clipPath id="c0"><rect class="rev r0" x="60" y="200" width="620" height="34"/></clipPath>
+    <clipPath id="c1"><rect class="rev r1" x="60" y="200" width="620" height="34"/></clipPath>
+    <clipPath id="c2"><rect class="rev r2" x="60" y="200" width="620" height="34"/></clipPath>
+  </defs>
+
+  <style>
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace; }
+    .sans { font-family: 'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif; }
+
+    /* typewriter: each phrase is revealed by a clip that scales from 0 to 1, then fades out */
+    .rev { transform-box: fill-box; transform-origin: left center; transform: scaleX(0); }
+    .ph  { opacity: 0; animation: life 15s linear infinite both; }
+    .rev { animation: type 15s linear infinite both; }
+    .p0, .r0 { animation-delay: 0s; }
+    .p1, .r1 { animation-delay: 5s; }
+    .p2, .r2 { animation-delay: 10s; }
+    @keyframes type {
+      0%   { transform: scaleX(0); animation-timing-function: steps(34, end); }
+      12%  { transform: scaleX(1); }
+      100% { transform: scaleX(1); }
+    }
+    @keyframes life {
+      0%   { opacity: 1; }
+      29%  { opacity: 1; }
+      33%  { opacity: 0; }
+      100% { opacity: 0; }
+    }
+
+    .float  { animation: float 7s ease-in-out infinite; }
+    .float2 { animation: float 9s ease-in-out infinite reverse; }
+    @keyframes float { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-8px); } }
+    .pulse { animation: pulse 2.4s ease-in-out infinite; }
+    @keyframes pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.35; } }
+
+    @media (prefers-reduced-motion: reduce) {
+      .ph, .rev, .float, .float2, .pulse { animation: none; }
+      .rev { transform: none; }
+      .ph { opacity: 0; }
+      .p0 { opacity: 1; }
+    }
+  </style>
+
+  <rect width="1000" height="280" rx="20" fill="url(#bg)"/>
+  <rect width="1000" height="280" fill="url(#grid)" mask="url(#gridmask)"/>
+  <rect width="1000" height="280" fill="url(#amber)"/>
+  <rect width="1000" height="280" fill="url(#indigo)"/>
+
+  <!-- status pill -->
+  <g transform="translate(60 44)">
+    <rect width="176" height="30" rx="15" fill="#ffffff" fill-opacity="0.04" stroke="#ffffff" stroke-opacity="0.12"/>
+    <circle class="pulse" cx="18" cy="15" r="4" fill="#34d399"/>
+    <text class="sans" x="32" y="20" font-size="13" fill="#cbd5e1">Based in Indonesia</text>
+  </g>
+
+  <!-- name + role -->
+  <text class="sans" x="58" y="132" font-size="66" font-weight="700" letter-spacing="-1.5" fill="url(#name)">Alham Manazil</text>
+  <text class="sans" x="60" y="172" font-size="22" fill="#94a3b8">Web Developer  <tspan fill="#475569">·</tspan>  IT Staff</text>
+
+  <!-- typewriter phrases -->
+  <g clip-path="url(#c0)"><text class="ph p0 mono" x="60" y="224" font-size="18" fill="#fcd34d">› Building web apps with PHP, Laravel &amp; JavaScript</text></g>
+  <g clip-path="url(#c1)"><text class="ph p1 mono" x="60" y="224" font-size="18" fill="#fcd34d">› Turning messy workflows into tidy software</text></g>
+  <g clip-path="url(#c2)"><text class="ph p2 mono" x="60" y="224" font-size="18" fill="#fcd34d">› Keeping IT running smoothly, one fix at a time</text></g>
+
+  <!-- decorative code card -->
+  <g transform="translate(720 52)"><g class="float">
+    <rect width="220" height="128" rx="14" fill="#0d1019" fill-opacity="0.92" stroke="#ffffff" stroke-opacity="0.1"/>
+    <circle cx="20" cy="20" r="4" fill="#ffffff" fill-opacity="0.18"/>
+    <circle cx="34" cy="20" r="4" fill="#ffffff" fill-opacity="0.18"/>
+    <circle cx="48" cy="20" r="4" fill="#ffffff" fill-opacity="0.18"/>
+    <rect x="20" y="42" width="54" height="7" rx="3.5" fill="#c4b5fd"/>
+    <rect x="82" y="42" width="84" height="7" rx="3.5" fill="#fcd34d"/>
+    <rect x="34" y="60" width="70" height="7" rx="3.5" fill="#cbd5e1" fill-opacity="0.55"/>
+    <rect x="112" y="60" width="52" height="7" rx="3.5" fill="#6ee7b7"/>
+    <rect x="34" y="78" width="104" height="7" rx="3.5" fill="#cbd5e1" fill-opacity="0.55"/>
+    <rect x="20" y="96" width="38" height="7" rx="3.5" fill="#c4b5fd"/>
+  </g></g>
+  <g transform="translate(842 150)"><g class="float2">
+    <rect width="104" height="46" rx="12" fill="#0d1019" fill-opacity="0.95" stroke="#fcd34d" stroke-opacity="0.45"/>
+    <text class="mono" x="14" y="28" font-size="14" fill="#fcd34d">&lt;/&gt;  ready</text>
+  </g></g>
+</svg>
