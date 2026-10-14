@@ -17,13 +17,13 @@
 
 I'm a web developer who likes the practical side of software: forms people actually fill in, dashboards people actually read, and small automations that give someone their afternoon back. I graduated in Informatics Engineering in 2024 and have been building for the web ever since.
 
-| | |
-| :-- | :-- |
-| **Now** | IT Staff at **PT Primajasa Tunas Mandiri**, Jakarta (since Aug 2026) |
-| **Before** | Web & App Developer at **Pitucorp** (Dec 2023 – Sep 2025) |
-| **Training** | Bangkit Academy 2023 (Cloud Computing) · Kominfo Digital Talent Scholarship 2024 (Data Analytics) |
-| **Education** | B.Eng. Informatics Engineering, Universitas Muria Kudus (GPA 3.83) |
-| **Focus** | Web applications, internal tools, no-code automation, IT operations |
+<table>
+  <tr><td><b>Now</b></td><td>IT Staff at <b>PT Primajasa Tunas Mandiri</b>, Jakarta (since Aug 2026)</td></tr>
+  <tr><td><b>Before</b></td><td>Web &amp; App Developer at <b>Pitucorp</b> (Dec 2023 – Sep 2025)</td></tr>
+  <tr><td><b>Training</b></td><td>Bangkit Academy 2023 (Cloud Computing) · Kominfo Digital Talent Scholarship 2024 (Data Analytics)</td></tr>
+  <tr><td><b>Education</b></td><td>B.Eng. Informatics Engineering, Universitas Muria Kudus (GPA 3.83)</td></tr>
+  <tr><td><b>Focus</b></td><td>Web applications, internal tools, no-code automation, IT operations</td></tr>
+</table>
 
 <br>
 
